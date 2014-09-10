@@ -1,0 +1,51 @@
+
+
+/*container*/
+
+
+body {
+margin: auto;
+width: 960px;
+}
+
+/*global classes*/
+
+img{
+	max-width: 100%;
+}
+
+
+/*navbar*/
+
+.navbar {
+background: black;
+height: 40px;
+border-radius: 10px;
+width: 100%;
+}
+
+.nav-item {
+display: inline-block;
+padding-top: 12px;
+padding-left: 30px;
+text-align: center;
+}
+
+.nav-link {
+	text-decoration: none;
+	color: white;
+}
+
+.nav-link:hover {
+	text-decoration: none;
+	color: #ff00e5;
+}
+
+
+
+/*start media query*/
+@media screen and (max-width: 960px) {
+	body  {
+		padding: 10px;
+	}
+}
